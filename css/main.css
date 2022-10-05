@@ -4,21 +4,64 @@
 body {
   font-size: 14px;
 }
-.v21_6 {
+
+.toppage {
   width: 100%;
-  height: 5005px;
+  height: 1024px;
+  background: rgba(27,15,10,1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: 12px;
   left: 0px;
   overflow: hidden;
 }
+.main {
+  width: 500px;
+  height: 300px;
+  opacity: 1;
+  position: absolute;
+  top: 279px;
+  left: 494px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.main img{
+  width: 100%;
+}
+.v2_8 {
+  width: 392px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 24px;
+  left: 65px;
+  font-family: BIZ UDGothic;
+  font-weight: 100;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_4 {
+  width: 384px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 440px;
+  left: 65px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+
 .concept {
   width: 100%;
   height: 955px;
   background: rgba(255,255,255,1);
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 1024px;
   left: 0px;
   overflow: hidden;
@@ -143,36 +186,80 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v7_23 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 2487px;
-  left: 0px;
-  overflow: hidden;
+
+
+
+
+.section {
+  padding: 10% 0;
+  border-top: solid 3px #fe9;
 }
-.v22_37 {
-  width: 100%;
-  height: 922px;
-  background: rgba(79,36,5,0.6800000071525574);
-  opacity: 1;
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  overflow: hidden;
+
+.section:nth-of-type(odd){
+  background-color: #eee;
 }
-.v22_38 {
-  width: 100%;
-  height: 922px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+
+.menu{
+  position: relative;
 }
+
+.menu.__1::after{
+  content: "";
+  position: absolute;
+  background: url("../images/Rectangle 8.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.menu.__2::after{
+  content: "";
+  position: absolute;
+  background: url("../images/Rectangle 9.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+
+menu.__3::after{
+  content: "";
+  position: absolute;
+  background: url("../images/Rectangle 10.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+.menu__des__it {
+  width: 40%;
+}
+.menu__des__it.__light {
+  position: relative;
+  left: 60%;
+}
+
+.ttl {
+  margin-bottom: 7.5%;
+  padding-left: 2.5%;
+  line-height: 1.4;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #555;
+  border-left: solid 4px #fe9;
+}
+
+.ttl span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+
 .v22_39 {
   width: 810px;
   height: 835px;
@@ -183,14 +270,14 @@ body {
   left: 315px;
   overflow: hidden;
 }
-.v22_40 {
+.ttl {
   width: 209px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 772px;
   left: 824px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -212,7 +299,7 @@ body {
   height: 278px;
   background: url(../images/Rectangle\ 8.png);
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 94px;
   left: 314px;
   overflow: hidden;
@@ -261,60 +348,14 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v20_2 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(27,15,10,1);
-  opacity: 1;
-  position: absolute;
-  top: 12px;
-  left: 0px;
-  overflow: hidden;
-}
-.main {
-  width: 500px;
-  height: 300px;
-  opacity: 1;
-  position: absolute;
-  top: 279px;
-  left: 494px;
-  overflow: hidden;
-  margin-top: 25px;
-}
 
-.main img{
-  width: 100%;
-}
-.v2_8 {
-  width: 392px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 24px;
-  left: 65px;
-  font-family: BIZ UDGothic;
-  font-weight: Regular;
-  font-size: 64px;
-  opacity: 1;
-  text-align: left;
-}
-.v20_4 {
-  width: 384px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 440px;
-  left: 65px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
 .about {
+  display: block;
   width: 100%;
   height: 508px;
   background: url(../images/Desktop\ -\ 3.png) no-repeat;
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 1979px;
   left: 0px;
   overflow: hidden;
@@ -341,7 +382,7 @@ body {
   top: 343px;
   left: 266px;
   font-family: HGPMinchoE;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -353,17 +394,17 @@ body {
   top: 304px;
   left: 266px;
   font-family: HGPMinchoE;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
 }
-.v20_11 {
+.news {
   width: 100%;
   height: 839px;
   background: rgba(27,15,10,1);
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 3507px;
   left: 0px;
   overflow: hidden;
@@ -375,7 +416,7 @@ body {
   top: 229px;
   left: 77px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -387,7 +428,7 @@ body {
   top: 314px;
   left: 77px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -399,7 +440,7 @@ body {
   top: 394px;
   left: 77px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -411,7 +452,7 @@ body {
   top: 466px;
   left: 77px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -446,7 +487,7 @@ body {
   top: 570px;
   left: 573px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -522,7 +563,7 @@ body {
   top: 392px;
   left: 470px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -578,7 +619,7 @@ body {
   height: 372px;
   background: url(../images/Desktop\ -\ 5.png)no-repeat;
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 4338px;
   left: 0px;
   overflow: hidden;
@@ -649,14 +690,13 @@ body {
 }
 
 .footer{
-  width: 100%;
-  height: 295px;
-  background-image: url();
-  opacity: 1;
+  width: 450px;
+  background-image: url(//images/Desktop\ -\ 6.png);
   position: absolute;
   top: 0px;
   left: 0px;
-  overflow: hidden;}
+  overflow: hidden;
+}
 
   .v8_22 {
     width: 100px;
