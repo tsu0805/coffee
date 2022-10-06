@@ -3,33 +3,43 @@
 }
 body {
   font-size: 14px;
+  
 }
 
 .toppage {
   width: 100%;
-  height: 1024px;
+  height: 800px;
   background: rgba(27,15,10,1);
-  opacity: 1;
+  /* opacity: 1; */
   position: relative;
-  top: 12px;
+  margin: auto;
+  /* top: 12px;
   left: 0px;
-  overflow: hidden;
+  overflow: hidden; */
 }
 .main {
-  width: 500px;
-  height: 300px;
-  opacity: 1;
-  position: absolute;
-  top: 279px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-left: 700px;
+  /* opacity: 1; */
+  /* position: relative; */
+  /* top: 279px;
   left: 494px;
   overflow: hidden;
-  margin-top: 25px;
+  margin-top: 25px; */
 }
 
-.main img{
-  width: 100%;
-}
-.v2_8 {
+/* .main img{ */
+  /* width: 100%; */
+  /* padding-left: 100px; */
+  /* position: absolute;
+  top: 50%; */
+  /* left: 100%; */
+/* } */
+.title {
   width: 392px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -41,11 +51,14 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v20_4 {
+.txt {
   width: 384px;
   color: rgba(255,255,255,1);
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
   position: absolute;
-  top: 440px;
+  top: 290px;
   left: 65px;
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
@@ -62,11 +75,77 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
-  top: 1024px;
+  /* top: 1024px; */
   left: 0px;
   overflow: hidden;
+  /* float: right; */
 }
-.v23_28 {
+
+.point {
+  /* width: 636px; */
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 118px;
+  left: 402px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+.txt1 {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 466px;
+  left: 183px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.txt2 {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 466px;
+  left: 226px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.txt3 {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 466px;
+  left: 268px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.txt4 {
+  width: 600px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 227px;
+  left: 762px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* .v23_28 {
   width: 100%;
   height: 853px;
   background: rgba(255,255,255,1);
@@ -75,42 +154,9 @@ body {
   top: 45px;
   left: 0px;
   overflow: hidden;
-}
-.v23_29 {
-  width: 24px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 466px;
-  left: 183px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v23_30 {
-  width: 24px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 466px;
-  left: 226px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
+} */
+
 .pic1 {
-  width: 338px;
-  height: 189px;
-  background: url(../images/Rectangle\ 1.png);
-  opacity: 1;
-  position: absolute;
-  top: 204px;
-  left: 186px;
-  overflow: hidden;
-}
-.pic2 {
   width: 636px;
   height: 322px;
   background: url(../images/Rectangle\ 2.png);
@@ -120,6 +166,19 @@ body {
   left: 607px;
   overflow: hidden;
 }
+
+
+.pic2 {
+  width: 338px;
+  height: 189px;
+  background: url(../images/Rectangle\ 1.png);
+  opacity: 1;
+  position: absolute;
+  top: 204px;
+  left: 186px;
+  overflow: hidden;
+}
+
 .pic3 {
   width: 309px;
   height: 91px;
@@ -150,204 +209,6 @@ body {
   left: 434px;
   overflow: hidden;
 }
-.v23_36 {
-  width: 636px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 118px;
-  left: 402px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 48px;
-  opacity: 1;
-  text-align: left;
-}
-.v23_37 {
-  width: 600px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 227px;
-  left: 762px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v23_38 {
-  width: 24px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 466px;
-  left: 268px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-
-
-
-
-.section {
-  padding: 10% 0;
-  border-top: solid 3px #fe9;
-}
-
-.section:nth-of-type(odd){
-  background-color: #eee;
-}
-
-.menu{
-  position: relative;
-}
-
-.menu.__1::after{
-  content: "";
-  position: absolute;
-  background: url("../images/Rectangle 8.png") no-repeat center;
-  background-size: cover;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-}
-
-.menu.__2::after{
-  content: "";
-  position: absolute;
-  background: url("../images/Rectangle 9.png") no-repeat center;
-  background-size: cover;
-  top: 0;
-  right: 50%;
-  width: 50%;
-  height: 100%;
-}
-
-
-menu.__3::after{
-  content: "";
-  position: absolute;
-  background: url("../images/Rectangle 10.png") no-repeat center;
-  background-size: cover;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-}
-.menu__des__it {
-  width: 40%;
-}
-.menu__des__it.__light {
-  position: relative;
-  left: 60%;
-}
-
-.ttl {
-  margin-bottom: 7.5%;
-  padding-left: 2.5%;
-  line-height: 1.4;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #555;
-  border-left: solid 4px #fe9;
-}
-
-.ttl span {
-  display: block;
-  font-size: 1.5rem;
-}
-
-
-.v22_39 {
-  width: 810px;
-  height: 835px;
-  background: rgba(79,36,5,0.3400000035762787);
-  opacity: 1;
-  position: absolute;
-  top: 95px;
-  left: 315px;
-  overflow: hidden;
-}
-.ttl {
-  width: 209px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 772px;
-  left: 824px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v22_41 {
-  width: 183px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 493px;
-  left: 386px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.coffee {
-  width: 405px;
-  height: 278px;
-  background: url(../images/Rectangle\ 8.png);
-  opacity: 1;
-  position: relative;
-  top: 94px;
-  left: 314px;
-  overflow: hidden;
-}
-.drink {
-  width: 405px;
-  height: 278px;
-  background: url(../images/Rectangle\ 10.png);
-  opacity: 1;
-  position: absolute;
-  top: 652px;
-  left: 314px;
-  overflow: hidden;
-}
-.cake {
-  width: 405px;
-  height: 278px;
-  background: url(../images/Rectangle\ 9.png);
-  opacity: 1;
-  position: absolute;
-  top: 374px;
-  left: 719px;
-  overflow: hidden;
-}
-.v22_45 {
-  width: 209px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 215px;
-  left: 824px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v22_46 {
-  width: 143px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 27px;
-  left: 648px;
-  font-family: HGSeikaishotaiPRO;
-  font-weight: 100;
-  font-size: 48px;
-  opacity: 1;
-  text-align: left;
-}
 
 .about {
   display: block;
@@ -356,7 +217,7 @@ menu.__3::after{
   background: url(../images/Desktop\ -\ 3.png) no-repeat;
   opacity: 1;
   position: relative;
-  top: 1979px;
+  /* top: 1979px; */
   left: 0px;
   overflow: hidden;
 }
@@ -399,13 +260,78 @@ menu.__3::after{
   opacity: 1;
   text-align: left;
 }
+
+
+.menu {
+  width: 100%;
+  background-color: #fff;
+  /* height: 1500px; */
+  /* float: left; */
+  /* position: relative; */
+  border-top: solid 3px #fe9;
+  margin-top: 30px;
+}
+
+
+.v22_41 {
+  width: 183px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 493px;
+  left: 386px;
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+ul li{
+  display: flex;
+  margin-top: 40px;
+  background-color: rgb(133, 128, 128);
+  margin: 0;
+}
+
+ul li img{
+
+  max-width: 100%;
+  vertical-align: middle;
+  line-height: 1.0rem;
+}
+
+ul li:nth-child(even){
+flex-direction: row-reverse;
+}
+
+ul li p{
+  font-size: 24px;
+  font-family: HGSeikaishotaiPRO;
+  
+}
+
+
+.menu h1 {
+  /* width: 143px; */
+  color: rgba(0,0,0,1);
+  /* position: absolute; */
+  /* top: 27px; */
+  /* left: 648px; */
+  font-family: HGSeikaishotaiPRO;
+  font-weight: 100;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+
+
 .news {
   width: 100%;
   height: 839px;
   background: rgba(27,15,10,1);
   opacity: 1;
   position: relative;
-  top: 3507px;
+  /* top: 3507px; */
   left: 0px;
   overflow: hidden;
 }
@@ -541,7 +467,7 @@ menu.__3::after{
   top: 230px;
   left: 470px;
   font-family: HGSeikaishotaiPRO;
-  font-weight: Regular;
+  font-weight: 100;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -602,25 +528,26 @@ menu.__3::after{
   opacity: 1;
   text-align: left;
 }
-.v20_12 {
-  width: 143px;
+.news__title {
+  /* width: 143px; */
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 66px;
-  left: 649px;
+  /* position: absolute; */
+  /* top: 66px;
+  left: 649px; */
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 48px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
+  padding-top: 20px;
 }
-.ques {
+.ques img {
   width: 100%;
   height: 372px;
-  background: url(../images/Desktop\ -\ 5.png)no-repeat;
+  
   opacity: 1;
   position: relative;
-  top: 4338px;
+  /* top: 4338px; */
   left: 0px;
   overflow: hidden;
 }
@@ -690,9 +617,9 @@ menu.__3::after{
 }
 
 .footer{
-  width: 450px;
+  width: 100%;
   background-image: url(//images/Desktop\ -\ 6.png);
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
   overflow: hidden;
@@ -703,7 +630,7 @@ menu.__3::after{
     height: 96px;
     background: url("../images/v8_22.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     opacity: 1;
     position: absolute;
@@ -713,7 +640,7 @@ menu.__3::after{
   }
 
   .v8_25{
-    width: 104px;
+    /* width: 104px; */
     color: #fff;
     position: absolute;
     top: 247px;
@@ -721,6 +648,6 @@ menu.__3::after{
     font-family: HGSeikaishotaiPRO;
     font-weight: 100;
     font-size: 24px;
-    opacity: 1;
-    text-align: left;
+    /* opacity: 1;
+    text-align: left; */
   }
