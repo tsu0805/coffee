@@ -534,26 +534,61 @@ ul li:nth-child(even) {
   padding-top: 40px;
 }
 
-.ques{
-position: relative;
-height: auto;
+.example{
+  position: relative;
+  height: auto;
 }
+
 .ques img {
   width: 100%;
-  height: 600px;
+  height: 400px;
   vertical-align:bottom;
 }
 
 .ques h1{
   position: absolute;
   font-family: HGSeikaishotaiPRO;
-  bottom: 80%;
+  bottom: 75%;
   left: 50%;
   font-size: 48px;
   color: #fff;
   transform: translate(-50%,-50%);
 }
 
+.ques h2{
+  text-align: center;
+  font-family: HGSeikaishotaiPRO;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+.ques-form__btn{
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.ques-form__btn__submit:hover{
+  background: rgb(137, 132, 132);
+}
+
+.ques-form__btn__submit{
+  padding: 4% 7%;
+  background-color: #555;
+  margin: 5% 0;
+  font-family: HGSeikaishotaiPRO;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  border:solid white 2px; 
+}
 
 
 
