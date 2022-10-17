@@ -65,12 +65,11 @@ body {
 
 
 .concept {
-  width: 100%;
+  width: 800px;
   height: 900px;
   opacity: 1;
-  margin-bottom: 40px;
   position: relative;
-  text-align: center;
+  margin:0 auto 40px;
   
 }
 
@@ -81,18 +80,20 @@ body {
   margin: 0 auto;
 }
 
+
 .point {
   width: 100%;
   color: rgba(0,0,0,1);
   position: absolute;
-  right: 0;
-  left: 0;
   top: 50px;
+  right: 0;
+  /* left: 0; */
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 48px;
   opacity: 1;
-  margin: auto;
+  /* margin: auto; */
+  text-align: center;
 }
 
 .txt1 {
@@ -100,7 +101,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 466px;
-  left: 183px;
+  left: 33px;
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 24px;
@@ -113,7 +114,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 466px;
-  left: 226px;
+  left: 76px;
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 24px;
@@ -126,7 +127,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 466px;
-  left: 268px;
+  left: 118px;
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 24px;
@@ -139,7 +140,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 227px;
-  left: 762px;
+  left: 550px;
   font-family: HGSeikaishotaiPRO;
   font-weight: 100;
   font-size: 24px;
@@ -157,7 +158,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 355px;
-  left: 607px;
+  left: 450px;
   overflow: hidden;
 }
 
@@ -169,7 +170,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 204px;
-  left: 186px;
+  left: 20px;
   overflow: hidden;
 }
 
@@ -180,7 +181,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 748px;
-  left: 888px;
+  left: 730px;
   overflow: hidden;
 }
 .pic4 {
@@ -190,7 +191,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 628px;
-  left: 381px;
+  left: 230px;
   overflow: hidden;
 }
 .pic5 {
@@ -200,7 +201,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 472px;
-  left: 434px;
+  left: 285px;
   overflow: hidden;
 }
 
